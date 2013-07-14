@@ -1,0 +1,7 @@
+main: greeting opt_comma " " name end_punctuation | "something broke" end_punctuation
+greeting: "hi" | "howdy" | "hey" | "hello"
+opt_comma: "," | ""
+name: boy_name | girl_name
+boy_name: "bob" | "george" | "paul"
+girl_name: "shaina" | "hillary" | "charlotte"
+end_punctuation: "!" | "."
